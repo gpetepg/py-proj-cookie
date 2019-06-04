@@ -97,12 +97,12 @@ celerybeat-schedule
 
 # Environments
 .venv
-/ve
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+ve/
 
 # Spyder project settings
 .spyderproject
@@ -122,4 +122,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/.DS_Store
+# DS_STORE
+.DS_Store
