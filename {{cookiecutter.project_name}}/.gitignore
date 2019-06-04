@@ -123,5 +123,5 @@ dmypy.json
 .pyre/
 
 # DS_Store
-/.DS_Store
-./.DS_Store
+.DS_Store
+{{cookiecutter.PROJECT_NAME|lower}}/.DS_Store
