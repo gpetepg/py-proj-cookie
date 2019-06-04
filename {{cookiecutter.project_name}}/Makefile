@@ -3,7 +3,7 @@
 #
 
 ifeq (${{'{'}}{{cookiecutter.PROJECT_NAME}}_DIR},)
-  $(error source ht-setup.env)
+  $(error source setup.env)
 endif
 
 SHELL:=bash
