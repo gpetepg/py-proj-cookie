@@ -96,8 +96,8 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
+/ve
 env/
 venv/
 ENV/
@@ -122,4 +122,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.DS_Store
+/.DS_Store
