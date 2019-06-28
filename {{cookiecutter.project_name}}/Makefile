@@ -58,6 +58,12 @@ _ve_rm:
 
 _ve_rebuild: _ve_rm _ve_build
 
+_rm_duplicate_sphinx:
+	cd sphinx/ && \
+	  mv sphinx/* . && \
+	  rm cookiecutter.json README.rst && \
+	  rm -rf sphinx/
+
 #####
 
 # Add more Make targets here
