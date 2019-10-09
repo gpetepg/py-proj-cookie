@@ -44,6 +44,12 @@ When returning to your project just source the environment file. This will sourc
 	
 	$ source setup.env
 
+To increase ease of use you can add this cookie to your ``~/.bash_profile``.
+
+.. code:: bash
+
+	alias py-proj="cookiecutter /Users/<User>/<path_to>/py-proj-cookie/"
+
 Resources
 ---------------------
 - GNU Make manual: https://www.gnu.org/software/make/manual/html_node/index.html
