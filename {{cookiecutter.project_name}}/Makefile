@@ -56,6 +56,9 @@ _ve_build:
 _ve_rm:
 	rm -rf ${{'{'}}{{cookiecutter.PROJECT_NAME}}_VE_DIR}
 
+_requirements:
+	pip freeze -> requirements.txt
+
 _ve_rebuild: _ve_rm _ve_build
 
 #####
