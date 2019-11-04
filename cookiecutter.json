@@ -1,5 +1,5 @@
 {
-    "project_name": "repo-name",
+    "project-name": "repo-name",
     "PROJECT_NAME": "REPO_NAME",
     "author": "Author",
     "description": "A generic description"

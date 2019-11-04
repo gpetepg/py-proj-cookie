@@ -11,7 +11,7 @@ You can customize from here to make the cookie your own to set up your projects 
 
 ----
 
-Open a new shell and get cookiecutter into your system Python.
+Open a new shell and get `cookiecutter <https://cookiecutter.readthedocs.io/en/latest/>`_ onto your system Python.
 
 .. code:: bash
 
@@ -24,8 +24,8 @@ The previous command will prompt the values in cookiecutter.json to be filled ou
 
 .. code:: bash
 
-	    project_name: Your project name in lowercase, if you a space is need use a `-` i.e. project-name
-	    PROJECT_NAME: Your project name in uppercase, if you a space is need use a `_` i.e. PROJECT_NAME
+	    project_name: Your project name in lowercase, if you need a space is need use a `-` e.g. project-name
+	    PROJECT_NAME: Your project name in uppercase, if you need a space is need use a `_` e.g. PROJECT_NAME
 	    author: The author of the project
 	    description: A generic description of your project
 
